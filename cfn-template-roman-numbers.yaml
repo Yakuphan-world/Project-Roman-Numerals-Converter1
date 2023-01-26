@@ -41,7 +41,7 @@ Resources:
           yum install python3 -y
           pip3 install flask
           cd /home/ec2-user
-          FOLDER="https://raw.githubusercontent.com/okti3535/test-cli/main/"
+          FOLDER="https://raw.githubusercontent.com/Yakuphan-world/Project-Roman-Numerals-Converter1/main/"
           wget ${FOLDER}/app.py
           mkdir templates && cd templates
           wget ${FOLDER}/templates/index.html
